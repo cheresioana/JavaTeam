@@ -32,4 +32,13 @@ public class GigiController {
         System.out.println("Email: "+userData.getEmail());
         return "redirect:/";
     }
+    @RequestMapping(value = "/ana")
+    public String deff() {
+        return "index2";
+    }
+    @RequestMapping(value = "/ana", method = RequestMethod.POST)
+    public String loadUser()
+    {
+        return "bla";
+    }
 }
