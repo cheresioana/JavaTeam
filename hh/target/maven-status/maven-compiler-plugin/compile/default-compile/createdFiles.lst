@@ -1,3 +1,3 @@
-ro/academyplus/Application.class
-ro/academyplus/controller/GigiController.class
-ro/academyplus/controller/UserData.class
+ro\academyplus\controller\UserData.class
+ro\academyplus\Application.class
+ro\academyplus\controller\GigiController.class
